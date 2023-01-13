@@ -206,10 +206,9 @@ h6 {
   position: fixed;
   overflow: hidden;
   top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: rgba(40, 58, 90, 0.6);
+  right: 20px;
+  left: 10;
+  bottom: 150px;
   transition: 0.3s;
   z-index: 999;
 }
@@ -229,7 +228,7 @@ h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #fff;
+  background: rgba(253, 110, 110, 0.5);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -238,7 +237,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 14px;
-  color: #751D41;
+  color: white;
 }
 
 .navbar-mobile a:hover,
@@ -251,40 +250,6 @@ h6 {
 .navbar-mobile .getintouch:focus {
   margin: 15px;
   color: #402D85;
-}
-
-.navbar-mobile .dropdown ul {
-  position: static;
-  display: none;
-  margin: 10px 20px;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 1;
-  visibility: visible;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-}
-
-.navbar-mobile .dropdown ul li {
-  min-width: 200px;
-}
-
-.navbar-mobile .dropdown ul a {
-  padding: 10px 20px;
-}
-
-.navbar-mobile .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar-mobile .dropdown ul a:hover,
-.navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
-  color: #47b2e4;
-}
-
-.navbar-mobile .dropdown>.dropdown-active {
-  display: block;
 }
 
 /*--------------------------------------------------------------
@@ -348,10 +313,6 @@ h6 {
     max-height:100px;
   }
 
-  #footer .copyright {
-    text-align: center;
-    float: none;
-  }
 
   #footer img {
     max-height: 50px;
@@ -366,6 +327,8 @@ h6 {
   }
 
   #footer .copyright{
+    text-align: center;
+    float: none;
     font-size:8px;
   }
 }
@@ -373,5 +336,31 @@ h6 {
 @media (min-width: 992px) {
   #footer .footer-text {
     display:block;
+  }
+}
+
+@media (max-width: 991px) {
+  #footer .footer-bottom {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    max-height:130px;
+  }
+
+  #footer img {
+    max-height: 60px;
+  }
+
+  #footer .social a{
+    font-size:18px;
+    max-width:28px;
+    max-height:28px;
+    line-height:28px;
+    margin:3px;
+  }
+
+  #footer .copyright{
+    text-align: center;
+    float: none;
+    font-size:10px;
   }
 }
