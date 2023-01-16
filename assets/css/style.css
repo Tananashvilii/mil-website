@@ -27,6 +27,12 @@ h6 {
   font-family: "Jost", sans-serif;
 }
 
+@media (max-width: 991px) {
+  body {
+    width:100%;
+  }
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -169,6 +175,10 @@ h6 {
 /**
 * Mobile Navigation 
 */
+.navbar-mobile {
+  display: none;
+}
+
 .mobile-nav-toggle {
   color: #fff;
   font-size: 28px;
@@ -190,17 +200,18 @@ h6 {
   .navbar ul {
     display: none;
   }
-}
 
-.navbar-mobile {
-  position: fixed;
-  overflow: hidden;
-  top: 0;
-  right: 20px;
-  left: 10;
-  bottom: 150px;
-  transition: 0.3s;
-  z-index: 999;
+  .navbar-mobile {
+    display: block;
+    position: fixed;
+    overflow: hidden;
+    top: 55px;
+    right: 20px;
+    left: 10;
+    bottom: 150px;
+    transition: 0.3s;
+    z-index: 999;
+  }
 }
 
 .navbar-mobile .mobile-nav-toggle {
