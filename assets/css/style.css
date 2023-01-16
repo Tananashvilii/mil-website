@@ -15,16 +15,6 @@ body {
   margin:auto;
 }
 
-a {
-  color: #47b2e4;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #73c5eb;
-  text-decoration: none;
-}
-
 h1,
 h2,
 h3,
@@ -89,7 +79,7 @@ h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  padding: 2px;
   background: #FADADA;
 }
 
@@ -109,7 +99,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -145,13 +135,6 @@ h6 {
   color: #751D41;
   white-space: nowrap;
   transition: 0.3s;
-}
-
-.navbar a i,
-.navbar a:focus i {
-  font-size: 12px;
-  line-height: 0;
-  margin-left: 5px;
 }
 
 .navbar a:hover,
