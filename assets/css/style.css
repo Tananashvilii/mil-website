@@ -1,10 +1,3 @@
-/**
-* Template Name: Arsha - v4.10.0
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -13,6 +6,16 @@ body {
   color: #444444;
   width:70%;
   margin:auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: none;
 }
 
 h1,
@@ -136,6 +139,8 @@ h6 {
   white-space: nowrap;
   transition: 0.3s;
 }
+
+.navbar a.active { color: #751D41}
 
 .navbar a:hover,
 .navbar .active,
