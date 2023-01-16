@@ -6,6 +6,7 @@ body {
   color: #444444;
   width:70%;
   margin:auto;
+  padding-bottom:260px;
 }
 
 a {
@@ -353,6 +354,7 @@ h6 {
   font-size: 14px;
   background: #751D41;
   z-index:-1;
+  max-height: 260px
 }
 
 #footer .footer-bottom {
