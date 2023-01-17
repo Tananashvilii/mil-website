@@ -308,6 +308,11 @@ h6 {
   padding-top: 72px;
 }
 
+#hero-text {
+  padding-left:100px;
+  padding-top:50px;
+}
+
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
@@ -343,6 +348,9 @@ h6 {
 
   #hero .hero-img img {
     width: 50%;
+  }
+  #hero-text {
+    padding: 50px 0;
   }
 
   #hero h1 {
@@ -394,12 +402,11 @@ h6 {
   font-size: 14px;
   background: #751D41;
   max-height: 260px;
-  position: absolute;
+  position: relative
 }
 
 #footer .footer-bottom {
   padding-top: 30px;
-  padding-bottom: 30px;
   color: #fff;
   text-align: center;
 }
