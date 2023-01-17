@@ -4,9 +4,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  width:70%;
   margin:auto;
-  padding-bottom:260px;
 }
 
 a {
@@ -176,12 +174,8 @@ h6 {
 /**
 * Mobile Navigation 
 */
-.navbar-mobile {
-  display: none;
-}
-
 .mobile-nav-toggle {
-  color: #fff;
+  color: #5f687b;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -191,6 +185,7 @@ h6 {
 
 .mobile-nav-toggle.bi-x {
   color: #fff;
+  display: block
 }
 
 @media (max-width: 991px) {
@@ -201,18 +196,18 @@ h6 {
   .navbar ul {
     display: none;
   }
+}
 
-  .navbar-mobile {
-    display: block;
-    position: fixed;
-    overflow: hidden;
-    top: 55px;
-    right: 20px;
-    left: 10;
-    bottom: 150px;
-    transition: 0.3s;
-    z-index: 999;
-  }
+.navbar-mobile {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(108, 31, 89, 0.9);
+  transition: 0.3s;
+  z-index: 999;
 }
 
 .navbar-mobile .mobile-nav-toggle {
@@ -223,13 +218,14 @@ h6 {
 
 .navbar-mobile ul {
   display: block;
+  position: absolute;
   top: 55px;
   right: 15px;
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background: rgba(253, 110, 110, 0.5);
+  background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -237,20 +233,65 @@ h6 {
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 14px;
-  color: white;
+  font-size: 15px;
+  color: #5f687b;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #751D41;
+  color: #402D85;
+}
+
+.navbar-mobile .getstarted,
+.navbar-mobile .getstarted:focus {
+  margin: 15px;
+  padding: 10px 15px;
 }
 
 .navbar-mobile .getintouch,
 .navbar-mobile .getintouch:focus {
+  padding: 8px 20px;
   margin: 15px;
-  color: #402D85;
+  border-radius: 50px;
+  color: #751D41;
+  font-size: 14px;
+  border: 2px solid #751D41;
+  font-weight: 600;
+}
+
+.navbar-mobile .dropdown ul {
+  position: static;
+  display: none;
+  margin: 10px 20px;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 1;
+  visibility: visible;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+}
+
+.navbar-mobile .dropdown ul li {
+  min-width: 200px;
+}
+
+.navbar-mobile .dropdown ul a {
+  padding: 10px 20px;
+}
+
+.navbar-mobile .dropdown ul a i {
+  font-size: 12px;
+}
+
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover>a {
+  color: #16df7e;
+}
+
+.navbar-mobile .dropdown>.dropdown-active {
+  display: block;
 }
 
 /*--------------------------------------------------------------
@@ -302,9 +343,7 @@ h6 {
   #hero .hero-img img {
     width: 50%;
   }
-}
 
-@media (max-width: 768px) {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -353,8 +392,8 @@ h6 {
 #footer {
   font-size: 14px;
   background: #751D41;
-  z-index:-1;
-  max-height: 260px
+  max-height: 260px;
+  position: absolute;
 }
 
 #footer .footer-bottom {
