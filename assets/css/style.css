@@ -175,7 +175,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #5f687b;
+  color: #751D41;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -205,7 +205,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(108, 31, 89, 0.9);
+  background: rgba(117, 29, 65, 0.9);
   transition: 0.3s;
   z-index: 999;
 }
@@ -298,7 +298,8 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
+  width: 70%;
+  margin: 0 auto;
   height: 55vh;
   background: #fff;
 }
