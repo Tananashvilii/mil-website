@@ -335,6 +335,7 @@ h6 {
   #hero {
     height: 100vh;
     text-align: center;
+    width: 100%;
   }
 
   #hero .animated {
@@ -511,14 +512,8 @@ h6 {
 # Careers
 --------------------------------------------------------------*/
 #careers {
-  width: 70%;
-  padding-top: 100px;
-  margin: auto;
-}
-
-#careers .vacancy {
-  display: flex;
-  grid-gap: 60px;
+  width: 100%;
+  padding-top: 120px
 }
 
 #careers .we_hiring h2 {
@@ -528,24 +523,18 @@ h6 {
 
 #careers li {
   list-style-type: none;
-}
-
-#careers .vacancy_name{
-  max-width: 50%;
-}
-
-#careers .vacancy_desc{
-  max-width: 50%;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 #careers .send_cv_text {
   margin-bottom: 70px;
-  padding: 30px 60px;
+  padding: 15px 30px;
   padding-top: 10px;
   background-color: #edf2f7;
   display: flex;
   grid-gap:15px;
-  height: 70px;
+  height: 85px;
 }
 
 #careers .bi-envelope {
@@ -553,3 +542,33 @@ h6 {
   color: #1679f3;
   width: 100%;
 }
+
+@media (min-width: 992px) {
+  #careers .vacancy {
+    display: flex;
+    grid-gap: 60px;
+  }
+
+  #careers {
+    width: 70%;
+    padding-top: 100px;
+    margin: auto;
+  }
+
+  #careers .vacancy_name{
+    max-width: 50%;
+  }
+
+  #careers .vacancy_desc{
+    max-width: 50%;
+  }
+
+  #careers .send_cv_text{
+    height: 70px;
+  }
+
+  #careers .send_cv_text span{
+    padding-top: 8px;
+  }
+}
+
