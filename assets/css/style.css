@@ -312,10 +312,6 @@ h2{
   padding-top: 72px;
 }
 
-#hero .row {
-  height: 400px;
-}
-
 #hero-text {
   padding-left:100px;
   padding-top:50px;
@@ -353,6 +349,11 @@ h2{
     animation: none;
   }
 
+
+  #hero .container {
+    padding-top: 0px;
+  }
+
   #hero .hero-img {
     text-align: center;
   }
@@ -380,10 +381,11 @@ h2{
   }
 }
 
-@media (max-width: 575px) {
-  #hero .hero-img img {
-    width: 80%;
-  }
+
+@media (min-width:992px) {
+  #hero .row {
+  height: 400px;
+}
 }
 
 @-webkit-keyframes up-down {
@@ -410,7 +412,7 @@ h2{
 --------------------------------------------------------------*/
 #careers {
   width: 100%;
-  padding-top: 120px
+  padding-top: 200px
 }
 
 
