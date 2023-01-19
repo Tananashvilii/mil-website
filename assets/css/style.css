@@ -303,17 +303,23 @@ h2{
 #hero {
   width: 70%;
   margin: 0 auto;
-  height: 55vh;
+  height: 75vh;
   background: #fff;
+  padding-top: 120px;
 }
 
 #hero .container {
   padding-top: 72px;
 }
 
+#hero .row {
+  height: 400px;
+}
+
 #hero-text {
   padding-left:100px;
   padding-top:50px;
+  margin: 0 auto;
 }
 
 #hero h1 {
@@ -322,6 +328,7 @@ h2{
   font-weight: 700;
   line-height: 56px;
   color: #751D41;
+  padding-top:50px
 }
 
 #hero h2 {
@@ -432,7 +439,7 @@ h2{
 @media (min-width: 992px) {
   #careers {
     width: 70%;
-    padding-top: 100px;
+    padding-top: 200px;
     margin: auto;
   }
 
