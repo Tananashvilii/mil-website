@@ -349,7 +349,6 @@ h2{
     animation: none;
   }
 
-
   #hero .container {
     padding-top: 0px;
   }
@@ -361,6 +360,7 @@ h2{
   #hero .hero-img img {
     width: 50%;
   }
+
   #hero-text {
     padding: 50px 0;
   }
@@ -501,7 +501,6 @@ h2{
   padding-top: 200px
 }
 
-
 #careers li {
   list-style-type: none;
   padding-top: 20px;
@@ -515,7 +514,7 @@ h2{
   background-color: #edf2f7;
   display: flex;
   grid-gap:15px;
-  height: 85px;
+  height: 110px;
 }
 
 #careers .bi-envelope {
