@@ -409,6 +409,41 @@ h2{
 }
 
 /*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+#about {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 135px;
+}
+
+.aboutheader {
+  padding-bottom: 30px;
+}
+
+#about .content-center {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boldheader {
+  font-size: 22px;
+  color: #2E4053;
+  letter-spacing:3px
+}
+
+.aboutContent{
+  flex: 1;
+  padding: 16px;
+  text-align: center;
+  background-color: #F8F9FC;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  margin: 2.5px;
+  line-height: 2; /* Add some space between the lines of text */
+}
+
+/*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
 #team {
@@ -499,6 +534,10 @@ h2{
 #careers {
   width: 100%;
   padding-top: 200px
+}
+
+#hiring {
+  padding-bottom: 30px;
 }
 
 #careers li {
