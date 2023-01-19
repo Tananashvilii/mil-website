@@ -398,119 +398,6 @@ h2{
     transform: translateY(-10px);
   }
 }
-
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-#footer {
-  font-size: 14px;
-  background: #751D41;
-  max-height: 260px;
-  position: relative
-}
-
-#footer .footer-bottom {
-  padding-top: 30px;
-  color: #fff;
-  text-align: center;
-}
-
-#footer img {
-  max-height: 80px;
-}
-
-#footer p {
-  color: #BDBAC7;
-}
-
-#footer .social a{
-  font-size:20px;
-  width:36px;
-  height:36px;
-  line-height:36px;
-  display:inline-block;
-  text-align:center;
-  border-radius:50%;
-  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
-  margin:0 8px;
-  color:#fff;
-  opacity:0.75;
-}
-
-#footer .footer-text{
-  display:none;
-}
-
-#footer .social a:hover{
-  opacity:1.5;
-}
-
-#footer .copyright{
-  text-align:center;
-  padding-top:8px;
-  opacity:0.3;
-  font-size:13px;
-  margin-bottom:0;
-}
-
-@media (max-width: 768px) {
-  #footer .footer-bottom {
-    padding-top: 0px;
-    padding-bottom: 20px;
-    max-height:100px;
-  }
-
-
-  #footer img {
-    max-height: 50px;
-  }
-
-  #footer .social a{
-    font-size:15px;
-    max-width:24px;
-    max-height:24px;
-    line-height:24px;
-    margin:2px;
-  }
-
-  #footer .copyright{
-    text-align: center;
-    float: none;
-    font-size:8px;
-  }
-}
-
-@media (min-width: 992px) {
-  #footer .footer-text {
-    display:block;
-  }
-}
-
-@media (max-width: 991px) {
-  #footer .footer-bottom {
-    padding-top: 0px;
-    padding-bottom: 20px;
-    max-height:130px;
-  }
-
-  #footer img {
-    max-height: 60px;
-  }
-
-  #footer .social a{
-    font-size:18px;
-    max-width:28px;
-    max-height:28px;
-    line-height:28px;
-    margin:3px;
-  }
-
-  #footer .copyright{
-    text-align: center;
-    float: none;
-    font-size:10px;
-  }
-}
 /*--------------------------------------------------------------
 # Careers
 --------------------------------------------------------------*/
@@ -636,5 +523,117 @@ h2{
   #form {
     width: 100%;
     margin: 0 auto;
+  }
+}
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  font-size: 14px;
+  background: #751D41;
+  max-height: 260px;
+  position: relative
+}
+
+#footer .footer-bottom {
+  padding-top: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+#footer img {
+  max-height: 80px;
+}
+
+#footer p {
+  color: #BDBAC7;
+}
+
+#footer .social a{
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+#footer .footer-text{
+  display:none;
+}
+
+#footer .social a:hover{
+  opacity:1.5;
+}
+
+#footer .copyright{
+  text-align:center;
+  padding-top:8px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+
+@media (max-width: 768px) {
+  #footer .footer-bottom {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    max-height:100px;
+  }
+
+
+  #footer img {
+    max-height: 50px;
+  }
+
+  #footer .social a{
+    font-size:15px;
+    max-width:24px;
+    max-height:24px;
+    line-height:24px;
+    margin:2px;
+  }
+
+  #footer .copyright{
+    text-align: center;
+    float: none;
+    font-size:8px;
+  }
+}
+
+@media (min-width: 992px) {
+  #footer .footer-text {
+    display:block;
+  }
+}
+
+@media (max-width: 991px) {
+  #footer .footer-bottom {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    max-height:130px;
+  }
+
+  #footer img {
+    max-height: 60px;
+  }
+
+  #footer .social a{
+    font-size:18px;
+    max-width:28px;
+    max-height:28px;
+    line-height:28px;
+    margin:3px;
+  }
+
+  #footer .copyright{
+    text-align: center;
+    float: none;
+    font-size:10px;
   }
 }
