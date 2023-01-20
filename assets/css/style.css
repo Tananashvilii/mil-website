@@ -570,19 +570,19 @@ h2{
   font-weight: 700;
 }
 
-.services .service-box .read-more {
+#services .moreText {
+  display: none;
+}
+
+#services .textButton {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   font-weight: 600;
   font-size: 16px;
   padding: 8px 20px;
-}
-
-.services .service-box .read-more i {
-  line-height: 0;
-  margin-left: 5px;
-  font-size: 18px;
+  background: none;
+  border: none;
 }
 
 .services .service-box.blue {
@@ -594,7 +594,7 @@ h2{
   background: #dbf3fe;
 }
 
-.services .service-box.blue .read-more {
+.services .service-box.blue .textButton {
   color: #2db6fa;
 }
 
@@ -611,7 +611,7 @@ h2{
   background: #fde3c4;
 }
 
-.services .service-box.orange .read-more {
+.services .service-box.orange .textButton {
   color: #f68c09;
 }
 
@@ -628,7 +628,7 @@ h2{
   background: #cffddf;
 }
 
-.services .service-box.green .read-more {
+.services .service-box.green .textButton {
   color: #08da4e;
 }
 
@@ -645,7 +645,7 @@ h2{
   background: #fef7f8;
 }
 
-.services .service-box.red .read-more {
+.services .service-box.red .textButton {
   color: #e9222c;
 }
 
@@ -662,7 +662,7 @@ h2{
   background: #f8e4fd;
 }
 
-.services .service-box.purple .read-more {
+.services .service-box.purple .textButton {
   color: #b50edf;
 }
 
@@ -679,7 +679,7 @@ h2{
   background: #feecf7;
 }
 
-.services .service-box.pink .read-more {
+.services .service-box.pink .textButton {
   color: #f51f9c;
 }
 
@@ -689,7 +689,7 @@ h2{
 
 .services .service-box:hover h3,
 .services .service-box:hover p,
-.services .service-box:hover .read-more {
+.services .service-box:hover .textButton {
   color: #fff;
 }
 
@@ -730,7 +730,7 @@ h2{
 }
 
 #careers .vacancy_desc {
-  padding: 20px 20px 20px 0px;
+  padding: 20px 20px 20px 20px;
 }
 
 #careers .send_cv_text {
