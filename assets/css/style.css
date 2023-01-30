@@ -111,6 +111,7 @@ h2{
 
 #header .logo img {
   max-height: 50px;
+  padding-top: 8px;
 }
 
 /*--------------------------------------------------------------
@@ -510,7 +511,7 @@ h2{
   margin: 0 2px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1490px) {
   #team {
     width: 90%;
     margin: 0 auto;
