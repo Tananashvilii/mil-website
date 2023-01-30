@@ -4,7 +4,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  margin:auto;
+  margin-top: 55px;
 }
 
 a {
@@ -304,9 +304,7 @@ h2{
 #hero {
   width: 70%;
   margin: 0 auto;
-  height: 75vh;
   background: #fff;
-  padding-top: 120px;
 }
 
 #hero .container {
@@ -339,12 +337,6 @@ h2{
 }
 
 @media (max-width: 991px) {
-  #hero {
-    height: 100vh;
-    text-align: center;
-    width: 100%;
-  }
-
   #hero .animated {
     -webkit-animation: none;
     animation: none;
@@ -382,11 +374,11 @@ h2{
   }
 }
 
-
-@media (min-width:992px) {
-  #hero .row {
-  height: 400px;
-}
+@media (max-width: 1490px) {
+  #hero {
+    text-align: center;
+    width: 100%;
+  }
 }
 
 @-webkit-keyframes up-down {
@@ -651,7 +643,6 @@ h2{
   background-color: #edf2f7;
   display: flex;
   grid-gap:15px;
-  height: 110px;
 }
 
 #careers .bi-envelope {
@@ -678,10 +669,6 @@ h2{
 
   #careers .vacancy_desc{
     max-width: 50%;
-  }
-
-  #careers .send_cv_text{
-    height: 70px;
   }
 
   #careers .send_cv_text span{
