@@ -772,7 +772,6 @@ h2{
 }
 
 #footer .footer-bottom {
-  padding-top: 30px;
   color: #fff;
   text-align: center;
 }
@@ -812,7 +811,7 @@ h2{
   padding-top:8px;
   opacity:0.3;
   font-size:13px;
-  margin-bottom:0;
+  padding-bottom:10px;
 }
 
 @media (max-width: 768px) {
